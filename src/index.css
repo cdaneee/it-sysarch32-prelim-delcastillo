@@ -1,0 +1,150 @@
+/* App.css */
+
+.app {
+  text-align: center;
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Other styles remain unchanged */
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.language-buttons button {
+  margin-left: 30px;
+  cursor: crosshair;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 0px;
+  padding: 8px 10px;
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+ 
+}
+
+.button1{
+  font-weight: bold;
+  background-color: rgb(98, 255, 255);
+}
+.button2{
+  font-weight: bold;
+  background-color: rgb(182, 223, 255);
+}
+.button3{
+  font-weight: bold;
+  background-color: rgb(143, 242, 136);
+}
+.button4{
+  font-weight: bold;
+  background-color: rgb(255, 247, 165);
+}
+
+
+
+/* Pokemon.css */
+.pokemon-card {
+  margin: 20px;
+  border: 5px solid #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.id-name-text {
+  font-weight: bold;
+}
+
+.type-button {
+  margin: 5px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+h{
+  font-size: large;
+}
+
+
+
+.stats {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+.left-stats,
+.right-stats {
+  flex-basis: 50%;
+}
+
+/* You can further customize the styles based on your design requirements */
+.pokemon-card {
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.pokemon-card img {
+  width: 125px;
+  height: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 0%;
+  border: 2px solid #333; /* Adjust border color and width as needed */
+}
+
+/*INFO TEXT SA SUD SA CARD*/
+p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.page-info p {
+  text-align: left; /* Align text to the left */
+  margin-left: 30px;
+  color: black;
+}
+
+
+/*KANING MA PREVIOUS BUTTONS*/
+.pagination {
+  margin-top: 30px;
+  text-align: left; /* Align the pagination buttons to the left */
+}
+
+.pagination button {
+  padding: 10px 10px;
+  margin-top: 1px;
+  margin-left: 30px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #000000;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
