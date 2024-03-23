@@ -22,13 +22,7 @@ const Pokemon = ({ pokemon, language }) => {
       <div>
         <p><b>ID:</b> {id}</p>
         <p><b>Name:</b> {getNameByLanguage()}</p>
-        <p><b>Type:</b> {type.join(', ')}</p>
-        <p><b>HP:</b> {base.HP}</p>
-        <p><b>Attack:</b> {base.Attack}</p>
-        <p><b>Defense:</b> {base.Defense}</p>
-        <p><b>Sp. Attack:</b> {base['Sp. Attack']}</p>
-        <p><b>Sp. Defense:</b> {base['Sp. Defense']}</p>
-        <p><b>Speed:</b> {base.Speed}</p>
+        
       </div>
     </div>
   );
